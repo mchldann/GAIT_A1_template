@@ -20,7 +20,7 @@ public class DrawGUI : MonoBehaviour
 
 	void OnGUI()
 	{
-		int maxFlies = 9;
+		int maxFlies = 10;
 
 		// Draw the background for the heath & flies overlay.
 		GUI.Box(new Rect(10, 10, 30 * maxFlies + 10, 60), "");
